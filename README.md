@@ -54,11 +54,12 @@ Predicted Sentiment: Positive
 Clean performance on multiclass sentiment classification using logistic regression.
 
 ## ✨ Future Improvements
-### ntegrate real-time tweet analysis with Tweepy
 
-### Replace TF-IDF + Logistic Regression with transformer models (e.g., BERT)
+Integrate real-time tweet analysis with Tweepy
 
-### Deploy via Streamlit or Flask for web interface
+Replace TF-IDF + Logistic Regression with transformer models (e.g., BERT)
+
+Deploy via Streamlit or Flask for web interface
 
 ## 🤝 Contributing
 
