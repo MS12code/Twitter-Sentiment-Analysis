@@ -11,13 +11,25 @@ A machine learning project that classifies tweets as **Positive**, **Negative**,
 - Trained a logistic regression model with Scikit-learn
 - Achieved **81% training accuracy** and **77.8% test accuracy**
 - Visualized sentiment distribution with Matplotlib
+  - 📊 Sentiment distribution (Negative, Neutral, Positive)
+  - ☁ Word clouds for each sentiment
+  - 🔷 Confusion matrix
+  - 🧾 Classification report (Precision, Recall, F1-score)
+  - 📈 ROC curve with AUC
+  - 📉 Train vs Test accuracy bar plot
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Language**: Python
-- **Libraries**: pandas, numpy, scikit-learn, nltk, matplotlib, tqdm
+- **Libraries**:
+  - `pandas`, `numpy` – Data handling
+  - `nltk` – NLP preprocessing
+  - `scikit-learn` – Machine learning
+  - `matplotlib`, `seaborn` – Visualizations
+  - `wordcloud` – Word-based visualizations
+  - `tqdm` – Progress tracking
 
 ---
 
@@ -50,6 +62,16 @@ Predicted Sentiment: Positive
 ### ✅ Training Accuracy: 81%
 
 ### ✅ Test Accuracy: 77.8%
+
+### ✅ AUC (ROC Curve): ≈ 0.85+
+
+## Also includes:
+
+Precision, recall, and F1-score for all 3 sentiment classes
+
+ROC Curve (One-vs-Rest) to evaluate multi-class performance
+
+Feature importance visualization for key words
 
 Clean performance on multiclass sentiment classification using logistic regression.
 
