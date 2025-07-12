@@ -9,7 +9,7 @@ A machine learning project that classifies tweets as **Positive**, **Negative**,
 - Preprocessed tweets (tokenization, stopword removal, stemming)
 - Vectorized text using TF-IDF
 - Trained a logistic regression model with Scikit-learn
-- Achieved **81% training accuracy** and **77.8% test accuracy**
+- Achieved **79.9% training accuracy** and **77.8% test accuracy**
 - Visualized sentiment distribution with Matplotlib
   - 📊 Sentiment distribution (Negative, Neutral, Positive)
   - ☁ Word clouds for each sentiment
@@ -59,7 +59,7 @@ Predicted Sentiment: Positive
 
 
 ## 📈 Results
-### ✅ Training Accuracy: 81%
+### ✅ Training Accuracy: 79.9%
 
 ### ✅ Test Accuracy: 77.8%
 
